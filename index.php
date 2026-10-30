@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 require_once 'functions.php';
 
-// Data profil pengembang
 $namaMahasiswa = 'Naufal Taufiqurrohman';
 $nimMahasiswa  = '025a00233001';
 $kelas         = 'Informatika Semester 3';
@@ -20,7 +19,6 @@ $mataKuliah    = 'Pemrograman Web (253A23W15)';
 </head>
 <body>
     <div class="container">
-        <!-- Header & Navigasi Semantik -->
         <header>
             <h1>Warkop Berkah Santai</h1>
             <p>Sajian Kopi & Camilan Hangat Teman Nugas Mahasiswa</p>
@@ -30,9 +28,7 @@ $mataKuliah    = 'Pemrograman Web (253A23W15)';
             </nav>
         </header>
 
-        <!-- Konten Utama Semantik -->
         <main>
-            <!-- Bagian 1: Profil Mahasiswa (Pembuat) -->
             <section>
                 <h2>Profil Pengembang</h2>
                 <div class="profil-grid">
@@ -60,7 +56,6 @@ $mataKuliah    = 'Pemrograman Web (253A23W15)';
                 </div>
             </section>
 
-            <!-- Bagian 2: Profil & Informasi Kafe -->
             <section>
                 <h2>Tentang Warkop</h2>
                 <article>
@@ -74,7 +69,6 @@ $mataKuliah    = 'Pemrograman Web (253A23W15)';
             </section>
         </main>
 
-        <!-- Footer Semantik -->
         <footer>
             <p>&copy; <?= date('Y') ?> Warkop Berkah Santai &bull; Dibuat oleh <?= e($namaMahasiswa) ?></p>
         </footer>
