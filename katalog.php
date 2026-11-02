@@ -1,9 +1,10 @@
-?php
+<?php
 
 declare(strict_types=1);
 
 require_once 'data.php';
 require_once 'functions.php';
+
 
 $totalMenu       = count($daftarMenu);
 $totalTersedia   = hitungTotalTersedia($daftarMenu);
@@ -16,7 +17,7 @@ $hargaTermurah   = min(array_column($daftarMenu, 'harga'));
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katalog Menu - Warkop Berkah Santai</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
     <div class="container">
@@ -89,6 +90,7 @@ $hargaTermurah   = min(array_column($daftarMenu, 'harga'));
                 </div>
             </section>
         </main>
+
         <footer>
             <p>&copy; <?= date('Y') ?> Warkop Berkah Santai &bull; Dibuat oleh Naufal Taufiqurrohman</p>
         </footer>

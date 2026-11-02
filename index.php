@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 require_once 'functions.php';
 
-$namaMahasiswa = 'Naufal Taufiqurrohman';
-$nimMahasiswa  = '025a00233001';
-$kelas         = 'Informatika Semester 3';
-$mataKuliah    = 'Pemrograman Web (253A23W15)';
+
 ?>
 <!DOCTYPE html>
 <html lang="id">
@@ -15,11 +12,12 @@ $mataKuliah    = 'Pemrograman Web (253A23W15)';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil Kafe & Mahasiswa - UTS Pemrograman Web</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
     <div class="container">
         <header>
+            <img src="assets/logo-warkop.jpg" alt="Foto profil pengembang web Naufal" class="profil-foto">
             <h1>Warkop Berkah Santai</h1>
             <p>Sajian Kopi & Camilan Hangat Teman Nugas Mahasiswa</p>
             <nav>
@@ -30,34 +28,9 @@ $mataKuliah    = 'Pemrograman Web (253A23W15)';
 
         <main>
             <section>
-                <h2>Profil Pengembang</h2>
-                <div class="profil-grid">
-                    <img src="assets/logo-warkop.jpg" alt="Foto profil pengembang web Naufal" class="profil-foto">
+                <div class="profil-grid">   
                     <div class="profil-info">
-                        <table>
-                            <tr>
-                                <td class="label">Nama Lengkap</td>
-                                <td>: <?= e($namaMahasiswa) ?></td>
-                            </tr>
-                            <tr>
-                                <td class="label">NIM</td>
-                                <td>: <?= e($nimMahasiswa) ?></td>
-                            </tr>
-                            <tr>
-                                <td class="label">Kelas</td>
-                                <td>: <?= e($kelas) ?></td>
-                            </tr>
-                            <tr>
-                                <td class="label">Mata Kuliah</td>
-                                <td>: <?= e($mataKuliah) ?></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <h2>Tentang Warkop</h2>
+                        <h2>Tentang Warkop</h2>
                 <article>
                     <h3>Kenyamanan Tempat Nugas & Diskusi</h3>
                     <p>
@@ -66,11 +39,13 @@ $mataKuliah    = 'Pemrograman Web (253A23W15)';
                         Dilengkapi dengan Wi-Fi kencang dan colokan di setiap meja.
                     </p>
                 </article>
+                    </div>
+                </div>
             </section>
         </main>
 
         <footer>
-            <p>&copy; <?= date('Y') ?> Warkop Berkah Santai &bull; Dibuat oleh <?= e($namaMahasiswa) ?></p>
+            <p>&copy; <?= date('Y') ?> Warkop Berkah Santai &bull; Dibuat oleh Naufal Taufiqurrohman</p>
         </footer>
     </div>
 </body>
