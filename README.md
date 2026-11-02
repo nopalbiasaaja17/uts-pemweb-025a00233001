@@ -67,10 +67,10 @@ Dalam proyek ini digunakan 4 fungsi array bawaan PHP berbeda (melebihi batas min
 Simpan hasil tangkapan layar di dalam folder `screenshots/`:
 
 ### 1. Tampilan Halaman Profil (`index.php`)
-![Tangkapan Layar Halaman Profil](screenshots/index.png)
+![Tangkapan Layar Halaman Profil](screnshoot/index.png)
 
 ### 2. Tampilan Halaman Katalog Menu (`katalog.php`)
-![Tangkapan Layar Halaman Katalog](screenshots/katalog.png)
+![Tangkapan Layar Halaman Katalog](screnshoot/katalog.png)
 
 ---
 
