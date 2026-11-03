@@ -76,7 +76,6 @@ $hargaTermurah   = min(array_column($daftarMenu, 'harga'));
                                     </td>
                                     <td><?= e(formatRupiah($item['harga'])) ?></td>
                                     <td>
-                                        <!-- Percabangan if/else (Syarat Wajib B) -->
                                         <?php if ($item['tersedia']): ?>
                                             <span class="badge badge-tersedia">Tersedia</span>
                                         <?php else: ?>
